@@ -20,7 +20,9 @@
   <body>
     <div id="fullPage">
       <div class="section s1">
-        <h1>First Section</h1>
+        <h1>First Section </a>
+
+        </h1>
       </div>
 
       <div class="section s2">
@@ -40,7 +42,10 @@
       new fullpage('#fullPage', {
         autoScrolling: true,
         navigation: true,
-        
+        anchors: ['section1', 'section2', 'section3'],
+        navigationTooltips: ['Home', 'Portfolio', 'Contact Me'],
+        showActiveTooltip: true,
+
       })
 
     </script>
