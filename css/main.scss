@@ -1,6 +1,7 @@
 h1{
     font-family: 'Montserrat';
     text-align:center;
+    font-size: 4rem;
 }
 .s1{
     background: url('../images/whiteSlate.jpg');
@@ -13,8 +14,13 @@ h1{
 .s2{
     background: url('../images/brickWall.jpg');
     background-size: cover;
-    color: rgba(24, 21, 21, 0.885);
-
+    color: rgba(223, 212, 212, 0.885);
+    
+h1{
+    text-align: left;
+    margin-left: 2em;
+    font-size: 6rem;
+}
     
 
 }
@@ -24,10 +30,10 @@ h1{
     background: url('../images/redFur.jpg');
     background-size: cover;
     color: rgb(233, 217, 217);
-}
 
-h1 {
-   
-    font-size: 4em;
-    
+    h1{
+        text-align: right;
+        margin-right: 2em;
+        font-size: 4rem;
+    }
 }

@@ -1,6 +1,8 @@
 h1 {
-  font-family: "Montserrat";
+  font-family: "Lobster", cursive;
   text-align: center;
+  font-size: 4rem;
+  letter-spacing: .09em;
 }
 
 .s1 {
@@ -12,7 +14,12 @@ h1 {
 .s2 {
   background: url("../images/brickWall.jpg");
   background-size: cover;
-  color: rgba(24, 21, 21, 0.885);
+  color: rgba(223, 212, 212, 0.885);
+}
+.s2 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 6rem;
 }
 
 .s3 {
@@ -20,7 +27,15 @@ h1 {
   background-size: cover;
   color: rgb(233, 217, 217);
 }
+.s3 h1 {
+  text-align: right;
+  margin-right: 2em;
+  font-size: 4rem;
+}
 
-h1 {
-  font-size: 4em;
-}/*# sourceMappingURL=main.css.map */
+span{
+    background:white !important;
+    
+}
+
+/*# sourceMappingURL=main.css.map */
