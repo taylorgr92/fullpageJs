@@ -1,8 +1,7 @@
 h1 {
-  font-family: "Lobster", cursive;
+  font-family: "Montserrat";
   text-align: center;
   font-size: 4rem;
-  letter-spacing: .09em;
 }
 
 .s1 {
@@ -25,17 +24,19 @@ h1 {
 .s3 {
   background: url("../images/redFur.jpg");
   background-size: cover;
-  color: rgb(233, 217, 217);
+  color: rgba(223, 212, 212, 0.885);
 }
 .s3 h1 {
   text-align: right;
   margin-right: 2em;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
-span{
-    background:white !important;
-    
+span {
+  background: white !important;
 }
 
-/*# sourceMappingURL=main.css.map */
+.fp-slidesNav .fp-bottom {
+  bottom: 17px;
+  margin-left: 2rem !important;
+}/*# sourceMappingURL=main.css.map */
